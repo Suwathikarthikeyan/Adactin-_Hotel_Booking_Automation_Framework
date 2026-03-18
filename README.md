@@ -62,7 +62,35 @@ Test Coverage
 - Booking Confirmation  
 
 ---
+##  Test Documentation
 
+As part of this project, comprehensive manual testing artifacts are maintained to ensure complete test coverage beyond automation.
+
+###  Test Assets
+
+-  [Smoke Test Cases and Test Plan]((https://docs.google.com/spreadsheets/d/1LO68ckep9PZ7nVCNmNnCjCFcTfYkbcCOk_VYyuZFBRU/edit?gid=1966987010#gid=1966987010))  
+  Covers critical end-to-end flow (Login → Booking) to validate build stability.
+
+-  [Manual Test Cases]((https://docs.google.com/spreadsheets/d/1LO68ckep9PZ7nVCNmNnCjCFcTfYkbcCOk_VYyuZFBRU/edit?gid=122815184#gid=122815184))  
+  Includes detailed functional test scenarios for all modules such as Login, Search Hotel, Select Hotel, Book Hotel, and Booking Confirmation.
+
+-  [Exploratory Testing]((https://docs.google.com/spreadsheets/d/1LO68ckep9PZ7nVCNmNnCjCFcTfYkbcCOk_VYyuZFBRU/edit?gid=303485951#gid=303485951))  
+  Contains observations, edge cases, and usability findings identified during unscripted testing.
+
+---
+
+### Testing Strategy
+
+This project follows a layered QA approach:
+
+Manual Testing → Exploratory Testing → Automation
+
+This ensures:
+- Early defect detection  
+- Broader test coverage  
+- Reliable and maintainable automation  
+
+---
 Author
 
 Suwathi
